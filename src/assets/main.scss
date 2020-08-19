@@ -1,2 +1,38 @@
+$purple: #747fe0;
+$text: hsl(0, 0%, 15%);
+
+.bio-container {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    grid-template-areas:
+        "pic name"
+        ". about";
+
+
+    .bio-pic {
+        grid-area: pic;
+    }
+
+    .bio-name {
+        grid-area: name;
+        align-self: center;
+
+        color: $purple;
+        font-size: 5.5rem;
+        // padding-left: 1rem;
+    }
+
+    .bio-about {
+        grid-area: about;
+
+        font-size: 1.5rem;
+    }
+}
+
+.navbar-menu {
+    font-size: 2rem;
+}
 
 @import "~bulma/bulma";

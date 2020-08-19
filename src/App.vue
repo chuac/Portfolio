@@ -1,24 +1,28 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div class="columns is-centered">
+        <div class="column is-two-thirds">
+            <header-nav></header-nav>
+            <biography></biography>
+        </div>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
+import Biography from './components/Biography.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+      'header-nav': Header,
+      'biography': Biography
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
