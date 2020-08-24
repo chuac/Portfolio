@@ -7,7 +7,10 @@
         <p class="bio-about">
             I am a graduate software developer based in Perth, Western Australia.
             <br>
-            Check out my projects below.
+            In my spare time I enjoy the game of Snooker, competitive computer games,
+            cooking, and travelling.
+            <br><br>
+            Check out my <a>projects</a> below.
         </p>
     </div>
 </template>
