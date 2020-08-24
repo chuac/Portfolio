@@ -3,6 +3,7 @@
         <div class="column is-two-thirds">
             <header-nav></header-nav>
             <biography></biography>
+            <projects></projects>
         </div>
     </div>
 </template>
@@ -10,12 +11,14 @@
 <script>
 import Header from './components/Header.vue'
 import Biography from './components/Biography.vue'
+import Projects from './components/Projects.vue'
 
 export default {
   name: 'App',
   components: {
       'header-nav': Header,
-      'biography': Biography
+      'biography': Biography,
+      'projects': Projects
   }
 }
 </script>

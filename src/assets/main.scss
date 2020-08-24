@@ -1,6 +1,10 @@
 $purple: #747fe0;
 $text: hsl(0, 0%, 15%);
 
+a {
+    // color: $purple;
+}
+
 .bio-container {
     display: grid;
     grid-template-columns: 130px 1fr;
