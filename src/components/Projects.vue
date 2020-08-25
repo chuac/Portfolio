@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h1 class="section-header">Projects</h1>
         <project 
             v-for="project in projects" 
             :key="project.name" 
@@ -21,6 +22,7 @@ export default {
                 {
                     name: 'Waiting List',
                     description: '...',
+                    skills: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'Vue.js', 'Vuex', 'SpeechSynthesis'],
                     live_demo: 'https://waitlist.chuac.me/',
                     github: 'https://github.com/chuac/Waiting-List'
                 },
@@ -37,6 +39,6 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped lang="scss">
 
 </style>

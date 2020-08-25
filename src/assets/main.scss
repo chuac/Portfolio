@@ -5,6 +5,20 @@ a {
     // color: $purple;
 }
 
+.section-header {
+    text-align: center;
+    font-size: 2rem;
+    color: $text;
+}
+.section-header::after { // the purple "underline"
+    content: "";
+    border: 3px solid $purple;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    width: 4rem;
+}
+
 .bio-container {
     display: grid;
     grid-template-columns: 130px 1fr;
@@ -32,6 +46,23 @@ a {
         grid-area: about;
         padding-left: 0.3rem;
         font-size: 1.5rem;
+    }
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+    .project-image {
+        flex: 1;
+    }
+
+    .project-content {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
     }
 }
 
