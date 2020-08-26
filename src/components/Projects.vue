@@ -3,8 +3,8 @@
         <h1 class="section-header">Projects</h1>
         <project 
             v-for="project in projects" 
-            :key="project.name" 
-            :project="project" 
+            v-bind:key="project.name" 
+            v-bind:project="project" 
         ></project>
     </div>
 </template>

@@ -9,13 +9,29 @@
         </div>
 
         <div class="project-content">
-            <h3>{{ project.name }}</h3>
-            <p>{{ project.description }}</p>
+            <h2 class="project-name">{{ project.name }}</h2>
+            <p class="project-description">{{ project.description }}</p>
             <div class="project-skills">
-                
+                <span v-for="skill in project.skills" v-bind:key="skill">
+                    {{ skill }}
+                </span>
             </div>
             <div class="project-links">
-
+                <!-- <button>
+                    Live Demo <i class="fas fa-external-link-alt"></i>
+                </button> -->
+                <a href="#" class="live-demo-button">
+                    Live Demo <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="view-source-button">
+                    <i class="fab fa-github"></i> View Source
+                </a>
+                <button class="test-button button is-medium">
+                    <span class="icon">
+                        <i class="fab fa-github"></i>
+                    </span>
+                    <span>GitHub</span>
+                </button>
             </div>
         </div>
 

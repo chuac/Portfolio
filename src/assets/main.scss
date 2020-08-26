@@ -63,6 +63,30 @@ a {
         display: flex;
         flex-direction: column;
         flex: 1;
+
+        align-self: center; // vertically align
+        padding-left: 1rem;
+
+        .project-links {
+
+            .live-demo-button {
+                color: white;
+                background-color: $purple;
+                border-radius: 4px;
+                // border: none;
+                padding: 0.7rem;
+            }
+
+            .view-source-button {
+
+            }
+
+            .test-button {
+                // color: white;
+                // background-color: $purple;
+                color: $purple;
+            }
+        }
     }
 }
 
