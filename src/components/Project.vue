@@ -1,8 +1,7 @@
 <template>
     <div class="project-container">
         
-        <div class="project-image">
-
+        <div class="project-image is-hidden-touch">
             <figure class="image is-5by4">
                 <img src="https://bulma.io/images/placeholders/600x480.png">
             </figure>
@@ -12,7 +11,7 @@
             <h2 class="project-name">{{ project.name }}</h2>
             <p class="project-description">{{ project.description }}</p>
             <div class="project-skills">
-                <span v-for="skill in project.skills" v-bind:key="skill">
+                <span class="project-skill" v-for="skill in project.skills" v-bind:key="skill">
                     {{ skill }}
                 </span>
             </div>
