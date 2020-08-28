@@ -21,7 +21,7 @@ export default {
             projects: [
                 {
                     name: 'Waiting List',
-                    description: '...',
+                    description: 'A two-page app for a local business where staff can add customers and their desired game types to the wait list. The Display page would be open on a large TV for customers to view the dynamically updated waiting list.',
                     skills: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'Vue.js', 'Vuex', 'SpeechSynthesis'],
                     live_demo: 'https://waitlist.chuac.me/',
                     github: 'https://github.com/chuac/Waiting-List'
