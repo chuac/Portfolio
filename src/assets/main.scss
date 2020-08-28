@@ -19,7 +19,7 @@ a {
 
 .section-header {
     text-align: center;
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 2vw, 2rem); // 2rem
     color: $text;
 }
 .section-header::after { // the purple "underline"
@@ -50,14 +50,14 @@ a {
         align-self: center;
 
         color: $purple;
-        font-size: 5vw; // 5.5rem
+        font-size: clamp(3.5rem, 5vw, 5.5rem); // responsive font-size
         // padding-left: 1rem;
     }
 
     .bio-about {
         grid-area: about;
         padding-left: 0.3rem;
-        font-size: 1.5rem;
+        font-size: clamp(15px, 1.5vw, 1.3rem);
     }
 }
 
@@ -99,7 +99,9 @@ a {
         }
 
         .project-skills {
-            display:flex;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap; // wrap skills onto a new line if needed
             // justify-content: flex-start;
 
             padding-bottom: 1rem;
@@ -109,6 +111,7 @@ a {
                 border-radius: 4px;
                 padding: 0.3rem;
                 margin-right: 0.4rem;
+                margin-bottom: 0.4rem;
                 align-self: center;
             }
         }

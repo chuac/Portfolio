@@ -2,7 +2,7 @@
     <div class="project-container">
         
         <div class="project-image is-hidden-touch">
-            <figure class="image is-5by4">
+            <figure class="image is-square">
                 <img src="https://bulma.io/images/placeholders/600x480.png">
             </figure>
         </div>
