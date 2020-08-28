@@ -4,6 +4,7 @@
             <header-nav></header-nav>
             <biography></biography>
             <projects></projects>
+            <contact></contact>
         </div>
     </div>
 </template>
@@ -12,13 +13,15 @@
 import Header from './components/Header.vue'
 import Biography from './components/Biography.vue'
 import Projects from './components/Projects.vue'
+import Contact from './components/Contact.vue'
 
 export default {
   name: 'App',
   components: {
       'header-nav': Header,
       'biography': Biography,
-      'projects': Projects
+      'projects': Projects,
+      'contact': Contact
   }
 }
 </script>

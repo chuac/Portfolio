@@ -21,6 +21,9 @@ a {
     text-align: center;
     font-size: clamp(1.5rem, 2vw, 2rem); // 2rem
     color: $text;
+
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 .section-header::after { // the purple "underline"
     content: "";
@@ -64,7 +67,6 @@ a {
 .project-container {
     display: flex;
     flex-direction: row;
-    margin-top: 2rem;
     margin-bottom: 1rem;
 
     background-color: #fff;
@@ -137,6 +139,10 @@ a {
             }
         }
     }
+}
+
+.contact-content {
+    text-align: center;
 }
 
 
