@@ -16,20 +16,20 @@
                 </span>
             </div>
             <div class="project-links">
-                <!-- <button>
+                <!-- <a href="#" class="live-demo-button">
                     Live Demo <i class="fas fa-external-link-alt"></i>
-                </button> -->
-                <a href="#" class="live-demo-button">
-                    Live Demo <i class="fas fa-external-link-alt"></i>
-                </a>
-                <a href="#" class="view-source-button">
-                    <i class="fab fa-github"></i> View Source
-                </a>
-                <button class="test-button button is-medium">
+                </a> -->
+                <button class="live-demo-button button">
+                    <span>Live Demo</span>
+                    <span class="icon">
+                        <i class="fas fa-external-link-alt"></i>
+                    </span>
+                </button>
+                <button class="view-source-button button">
                     <span class="icon">
                         <i class="fab fa-github"></i>
                     </span>
-                    <span>GitHub</span>
+                    <span>View Source</span>
                 </button>
             </div>
         </div>

@@ -86,7 +86,9 @@ a {
         flex: 1;
 
         // align-self: center; // vertically align
-        padding-left: 1rem;
+        // padding-left: 1rem;
+        // padding-right: 1rem;
+        padding: 1rem;
 
         justify-content: space-around;
 
@@ -119,17 +121,19 @@ a {
         }
 
         .project-links {
+            // margin-bottom: 0.5rem;
 
             .live-demo-button {
                 color: white;
                 background-color: $purple;
-                border-radius: 4px;
+                margin-right: 0.5rem;
+                // border-radius: 4px;
                 // border: none;
-                padding: 0.7rem;
+                // padding: 0.7rem;
             }
 
             .view-source-button {
-
+                color: $purple;
             }
 
             .test-button {
