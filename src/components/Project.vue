@@ -19,18 +19,26 @@
                 <!-- <a href="#" class="live-demo-button">
                     Live Demo <i class="fas fa-external-link-alt"></i>
                 </a> -->
-                <button class="live-demo-button button">
+                <a 
+                    v-bind:href="project.live_demo_url" 
+                    target="_blank" 
+                    class="live-demo-button button"
+                >
                     <span>Live Demo</span>
                     <span class="icon">
                         <i class="fas fa-external-link-alt"></i>
                     </span>
-                </button>
-                <button class="view-source-button button">
+                </a>
+                <a 
+                    v-bind:href="project.github_url" 
+                    target="_blank" 
+                    class="view-source-button button"
+                >
                     <span class="icon">
                         <i class="fab fa-github"></i>
                     </span>
                     <span>View Source</span>
-                </button>
+                </a>
             </div>
         </div>
 
