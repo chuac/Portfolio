@@ -9,7 +9,7 @@
 
         <div class="project-content">
             <h2 class="project-name">{{ project.name }}</h2>
-            <p class="project-description">{{ project.description }}</p>
+            <p class="project-description" v-html="project.description"></p>
             <div class="project-skills">
                 <span class="project-skill" v-for="skill in project.skills" v-bind:key="skill">
                     {{ skill }}
