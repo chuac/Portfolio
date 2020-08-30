@@ -5,6 +5,7 @@
             <biography></biography>
             <projects></projects>
             <contact></contact>
+            <br><br><br>
         </div>
     </div>
 </template>

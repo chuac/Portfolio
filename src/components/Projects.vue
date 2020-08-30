@@ -22,11 +22,11 @@ export default {
                 {
                     name: 'Waiting List',
                     description: `
-                            A local business was using a spreadsheet to show customers in a queue. This was simply mirrored onto a second display and staff vocally called out for customers.
+                            A local business was using a spreadsheet to show customers in a queue. It was simply mirrored onto a second display and staff vocally called out for customers.
                             <br><br>
-                            I created a two-page solution where staff can add customers and control the queue on one page. The "Display" page would then be open on a large TV for customers to view the dynamically updated waiting list.
+                            I created a two-page solution where staff can add customers and control the queue on one page. The "Display" page would be open on a large TV for customers to view the dynamically updated waiting list. Also features Text-to-Speech at a click of a button. 
                             <br><br>
-                            The web app is used by a team of 5 staff members serving hundreds of customers a night.
+                            This web app is used by a team of five staff members serving hundreds of customers a night.
                         `,
                     skills: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'Vue.js', 'Vuex', 'SpeechSynthesis'],
                     live_demo_url: 'https://waitlist.chuac.me/',
