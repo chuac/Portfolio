@@ -1,6 +1,6 @@
 <template>
     <div class="columns is-centered is-mobile">
-        <div class="column is-full-mobile is-four-fifths-tablet is-two-thirds-desktop is-two-thirds-widescreen is-two-thirds-fullhd">
+        <div class="column is-full-mobile is-four-fifths-tablet is-four-fifths-desktop is-four-fifths-widescreen is-four-fifths-fullhd">
             <header-nav></header-nav>
             <biography></biography>
             <projects></projects>
